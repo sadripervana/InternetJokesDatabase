@@ -17,7 +17,7 @@ if(!empty($errors)):
  </div>
 <?php endif; ?>
 
-<form action="" method="post">
+<form class="form-style" action="" method="post">
 	<label for="email">Your email address</label>
 	<input type="text" name="author[email]" id="email" value="<?=$author['email'] ?? ''?>">
 
