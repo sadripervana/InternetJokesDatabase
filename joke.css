@@ -91,3 +91,63 @@ footer {
 .currentpage:after {
   content: "]";
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+}
+
+.nav__links {
+  list-style: none;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ margin: 0;
+ padding: 0;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+ .nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li:hover{
+  transition: all .2s ease-in-out;
+  transform: scale(1.2);
+  color: #347deb;
+}
+
+header a:hover{
+  transition: all .2s ease-in-out;
+  transform: scale(1.2);
+  color: #347deb;
+}
+
+input {
+  height: 38px;
+  border-color: #b7e4f7;
+  border-radius: 17px  ;
+  margin: 50px;
+}
+
+.form-style {
+  height: 80vh;
+}
+
+.form-style {
+margin: auto;
+width: 30%;
+padding: 50px 50px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.add {
+  padding-top: 10px;
+}
