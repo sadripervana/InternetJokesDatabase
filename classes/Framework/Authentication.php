@@ -52,10 +52,5 @@ class Authentication {
     	}
   	}
 
-	// if(!empty($author) && password_verify($password, $author[0]['passowrd'])) {
-	// 	session_regenerate_id();
-	// 	$_SESSION['email'] = $email;
-	// 	$_SESSION['password'] = $author['password'];
-	// 	return true;
-	// }
+
 }
